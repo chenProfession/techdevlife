@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: TechDevLife
+title: 代码与生活的交汇点
 subtitle: '探索软件开发之道，享受生活点滴'
 description: '软件开发技术与生活的融合，代码与生活的交汇点'
 keywords: Java开发 人工智能 大语言模型 软件开发 技术博客 编程技巧 职业发展
@@ -114,3 +114,24 @@ deploy:
   repo: git@github.com:chenProfession/techdevlife.git
   # example, https://github.com/hexojs/hexojs.github.io
   branch: gh-pages
+
+# Algolia search
+algolia_search:
+  enable: true
+  hits:
+    per_page: 6
+
+algolia:
+  appId: HOEVGOMG5X #Your appId
+  apiKey: 05f3dac1d01a27dfa4e8d2246a607baf #Your apiKey
+  adminApiKey: c2d6d64ca03e1ca7ff79ec51c94b0c5e #Your adminApiKey
+  chunkSize: 5000
+  indexName: "shokaX"
+  fields:
+    - title #必须配置
+    - path #必须配置
+    - categories #推荐配置
+    - content:strip:truncate,0,2000
+    - gallery
+    - photos
+    - tags
