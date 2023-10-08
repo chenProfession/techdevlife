@@ -1,0 +1,33 @@
+# language
+zh-CN:
+  # items
+  favicon:
+    show: 不负韶华
+    hide: 以梦为马！
+  menu:
+    language: 语言
+    chinese: 简体中文
+    english: 英文
+
+zh-HK:
+  favicon:
+    show: 不负韶华
+    hide: 以梦为马！
+
+zh-TW:
+  favicon:
+    show: 不负韶华
+    hide: 以梦为马！
+
+en:
+  favicon:
+    show: 不负韶华
+    hide: 以梦为马！
+  menu:
+    chinese: Simple Chinese
+    english: English
+
+ja:
+  favicon:
+    show: 不负韶华
+    hide: 以梦为马！
