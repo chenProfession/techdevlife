@@ -223,9 +223,9 @@ prismjs:
 syntax_highlighter: false
 
 algolia:
-  appId: #Your appId
-  apiKey: #Your apiKey
-  adminApiKey: #Your adminApiKey
+  appId: HOEVGOMG5X #Your appId
+  apiKey: b749132a9ec6651b33b263cb80e802da #Your apiKey
+  adminApiKey: c2d6d64ca03e1ca7ff79ec51c94b0c5e #Your adminApiKey
   chunkSize: 5000
   indexName: #"shokaX"
   fields:
