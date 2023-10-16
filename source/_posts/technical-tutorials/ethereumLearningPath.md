@@ -26,7 +26,7 @@ Solidity 是一种用于编写智能合约的编程语言。你可以学习以�
 
 ### 示例： 编写一个简单的智能合约，实现一个简单的数字投票系统。
 
-```
+```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
