@@ -25,7 +25,8 @@ type: "friends"
 -------
 添加本站链接后，请向邮箱发送如下内容：
 > 在交换友链前，务必查看交换友链的规则
-```YAML
+
+```yaml
 - site: #站点名称
   owner: #管理员名字
   url: #站点网址
@@ -33,9 +34,10 @@ type: "friends"
   image: #一张图片
   color: #颜色代码
 ```
+
 本站链接:
 
-```YAML
+```yaml
 - site: 望月阁
   owner: ElicChan
   url: https://www.chan.xyz
@@ -43,6 +45,7 @@ type: "friends"
   image: https://www.chan.xyz/assets/avatar.jpg
   color: "#00BFFF"
 ```
+
 ## 友链名单
 
 以下是我们的友链名单：
