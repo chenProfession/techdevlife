@@ -35,6 +35,8 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+  - ./html/**
+  # 表示HTML文件夹里面的所有内容都不会被hexo渲染
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -46,9 +48,13 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
+
+marked:
+  prependRoot: true
+  postAsset: true
 
 highlight:
   enable: false
@@ -74,9 +80,19 @@ index_generator:
   # single_language_index: false
 
 # Category & Tag
-default_category: uncategorized
+default_category: # uncategorized
 category_map:
+  技术教程与指南: technical-tutorials
+  项目实战与案例分析: project-showcases
+  职业发展与建议: career-development
+  生活中的技术应用: tech-in-daily-life
+  软件开发工具与环境配置: development-tools-and-setup
+  技术趋势与前沿: tech-trends-and-innovations
+  读者互动与讨论: reader-interaction-and-discussion
 tag_map:
+
+#categories:
+#  - [技术教程与指南, 项目实战与案例分析, 职业发展与建议, 生活中的技术应用, 软件开发工具与环境配置, 技术趋势与前沿, 读者互动与讨论]
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
