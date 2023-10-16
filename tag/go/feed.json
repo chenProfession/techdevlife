@@ -1,6 +1,6 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "代码与生活的交汇点",
+    "title": "代码与生活的交汇点 • All posts by \"go\" tag",
     "description": "软件开发技术与生活的融合，代码与生活的交汇点",
     "home_page_url": "https://chenprofession.github.io/techdevlife",
     "items": [
@@ -15,26 +15,6 @@
                 "development",
                 "go"
             ]
-        },
-        {
-            "id": "https://chenprofession.github.io/techdevlife/2023/10/09/technical-tutorials/ethereumLearningPath/",
-            "url": "https://chenprofession.github.io/techdevlife/2023/10/09/technical-tutorials/ethereumLearningPath/",
-            "title": "以太坊开发学习路径",
-            "date_published": "2023-10-09T14:08:19.000Z",
-            "content_html": "<h1 id=\"1-以太坊开发学习路径\"><a class=\"markdownIt-Anchor\" href=\"#1-以太坊开发学习路径\">#</a> 1 - 以太坊开发学习路径</h1>\n<p>如果你是一位不懂以太坊的开发人员，想要快速学习以太坊开发，可以按照以下步骤进行学习。以太坊是一种基于区块链的平台，允许开发者构建分布式应用程序和智能合约。<br>\n下面是一个学习路径的简要指南，帮助你入门以太坊开发。</p>\n<h2 id=\"步骤-1了解基本概念\"><a class=\"markdownIt-Anchor\" href=\"#步骤-1了解基本概念\">#</a> 步骤 1：了解基本概念</h2>\n<p><strong>首先，你需要理解以下基本概念：</strong></p>\n<ul>\n<li>区块链的基本原理</li>\n<li>以太坊平台的特点和目标</li>\n<li>智能合约是什么，以及它们如何在以太坊上运行</li>\n</ul>\n<h2 id=\"步骤-2学习-solidity-编程语言\"><a class=\"markdownIt-Anchor\" href=\"#步骤-2学习-solidity-编程语言\">#</a> 步骤 2：学习 Solidity 编程语言</h2>\n<p>Solidity 是一种用于编写智能合约的编程语言。你可以学习以下内容：</p>\n<ul>\n<li>Solidity 的语法和基本结构</li>\n<li>数据类型、变量和函数的使用</li>\n<li>智能合约的生命周期</li>\n</ul>\n<h3 id=\"示例-编写一个简单的智能合约实现一个简单的数字投票系统\"><a class=\"markdownIt-Anchor\" href=\"#示例-编写一个简单的智能合约实现一个简单的数字投票系统\">#</a> 示例： 编写一个简单的智能合约，实现一个简单的数字投票系统。</h3>\n<pre><code>// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\ncontract SimpleVoting &#123;\n    uint256 public yesVotes;\n    uint256 public noVotes;\n\n    function voteYes() public &#123;\n        yesVotes++;\n    &#125;\n\n    function voteNo() public &#123;\n        noVotes++;\n    &#125;\n&#125;\n</code></pre>\n<h2 id=\"步骤-3安装和配置开发环境\"><a class=\"markdownIt-Anchor\" href=\"#步骤-3安装和配置开发环境\">#</a> 步骤 3：安装和配置开发环境</h2>\n<p><strong>安装必要的工具和软件，包括：</strong></p>\n<ul>\n<li>以太坊客户端（如 Ganache）</li>\n<li>Solidity 编译器</li>\n<li>Web3.js（用于与以太坊网络进行交互）</li>\n</ul>\n<h2 id=\"步骤-4开发和部署智能合约\"><a class=\"markdownIt-Anchor\" href=\"#步骤-4开发和部署智能合约\">#</a> 步骤 4：开发和部署智能合约</h2>\n<p><strong>学习如何开发、编译和部署智能合约：</strong></p>\n<ul>\n<li>使用 Solidity 编写更复杂的智能合约</li>\n<li>使用 Truffle 或 Remix 等工具进行合约的编译和部署</li>\n</ul>\n<p>示例： 开发一个简单的去中心化存款合约，允许用户存入和取出代币。</p>\n<h2 id=\"步骤-5与以太坊交互\"><a class=\"markdownIt-Anchor\" href=\"#步骤-5与以太坊交互\">#</a> 步骤 5：与以太坊交互</h2>\n<p><strong>了解如何通过 Web3.js 与以太坊网络进行交互：</strong></p>\n<ul>\n<li>查询区块链上的数据</li>\n<li>发送交易和调用智能合约的方法</li>\n</ul>\n<p>示例： 使用 Web3.js 创建一个界面，显示智能合约中的投票结果，并提供投票按钮。</p>\n<h2 id=\"步骤-6学习-dapp-开发\"><a class=\"markdownIt-Anchor\" href=\"#步骤-6学习-dapp-开发\">#</a> 步骤 6：学习 DApp 开发</h2>\n<p><strong>学习如何开发去中心化应用程序（DApp）：</strong></p>\n<ul>\n<li>使用前端框架（如 React）构建用户界面</li>\n<li>通过 Web3.js 与智能合约交互</li>\n<li>使用 MetaMask 等钱包扩展与以太坊网络连接</li>\n</ul>\n<p>示例： 开发一个简单的 DApp，让用户可以通过界面投票，并实时查看投票结果。</p>\n<h2 id=\"步骤-7深入学习高级主题\"><a class=\"markdownIt-Anchor\" href=\"#步骤-7深入学习高级主题\">#</a> 步骤 7：深入学习高级主题</h2>\n<p><strong>一旦掌握了基本概念和技能，可以继续学习以下高级主题：</strong></p>\n<ul>\n<li>以太坊安全性和攻击方式</li>\n<li>智能合约最佳实践</li>\n<li>去中心化金融（DeFi）、非同质化代币（NFT）等领域的开发</li>\n</ul>\n<h2 id=\"步骤-8参与社区和项目\"><a class=\"markdownIt-Anchor\" href=\"#步骤-8参与社区和项目\">#</a> 步骤 8：参与社区和项目</h2>\n<p>加入以太坊开发社区，参与开源项目，与其他开发者交流经验和知识。</p>\n<h3 id=\"这只是一个学习路径的简要指南你可以根据自己的学习进度和需求来深入学习以太坊开发-记得不断练习和实践才能更好地掌握这些概念和技能\"><a class=\"markdownIt-Anchor\" href=\"#这只是一个学习路径的简要指南你可以根据自己的学习进度和需求来深入学习以太坊开发-记得不断练习和实践才能更好地掌握这些概念和技能\">#</a> 这只是一个学习路径的简要指南，你可以根据自己的学习进度和需求来深入学习以太坊开发。记得不断练习和实践，才能更好地掌握这些概念和技能。</h3>\n",
-            "tags": [
-                "Ethereum",
-                "development",
-                "learning path"
-            ]
-        },
-        {
-            "id": "https://chenprofession.github.io/techdevlife/2023/10/08/hello-world/",
-            "url": "https://chenprofession.github.io/techdevlife/2023/10/08/hello-world/",
-            "title": "Hello World",
-            "date_published": "2023-10-08T06:56:31.948Z",
-            "content_html": "<h1 id=\"关于作者\"><a class=\"markdownIt-Anchor\" href=\"#关于作者\">#</a> 关于作者</h1>\n<p>你好，我是 EricChan，欢迎来到 TechDevLife 博客！</p>\n<h2 id=\"关于我\"><a class=\"markdownIt-Anchor\" href=\"#关于我\">#</a> 关于我</h2>\n<p>我是一名热爱软件开发的工程师，热衷于探索技术与生活的交汇点。我的主要兴趣包括 Java 开发、人工智能和大语言模型技术。</p>\n<h2 id=\"我的使命\"><a class=\"markdownIt-Anchor\" href=\"#我的使命\">#</a> 我的使命</h2>\n<p>我创建这个博客的目的是分享我在软件开发领域的经验和见解，并探讨如何将技术知识融入日常生活中。我希望通过这个平台与您一起成长，共同探索编程世界的无限可能性。</p>\n<h2 id=\"博客内容\"><a class=\"markdownIt-Anchor\" href=\"#博客内容\">#</a> 博客内容</h2>\n<p>在 TechDevLife 博客中，您将会找到以下主要内容：</p>\n<ul>\n<li><strong>技术教程与指南</strong>：深入浅出地分享 Java 开发技巧、Git 版本控制策略等实用教程。</li>\n<li><strong>项目实战与案例分析</strong>：从实际项目中学习，了解如何将技术应用到实践中。</li>\n<li><strong>职业发展与建议</strong>：提升技术职场竞争力，规划职业发展道路。</li>\n<li><strong>生活中的技术应用</strong>：将科技融入我们的日常生活，提高生活质量。</li>\n<li><strong>软件开发工具与环境配置</strong>：介绍 IDE 使用技巧、开发环境配置建议等。</li>\n<li><strong>技术趋势与前沿</strong>：关注最新的 AI 技术动态，了解 Java 开发新特性等。</li>\n<li><strong>读者互动与讨论</strong>：与读者分享交流，解答技术问题。</li>\n</ul>\n<h2 id=\"如何联系我\"><a class=\"markdownIt-Anchor\" href=\"#如何联系我\">#</a> 如何联系我</h2>\n<p>有任何问题或建议？请随时联系我：</p>\n<ul>\n<li>电子邮件：[你的邮箱]</li>\n<li>社交媒体：[你的社交媒体链接]</li>\n</ul>\n<h2 id=\"订阅我的博客\"><a class=\"markdownIt-Anchor\" href=\"#订阅我的博客\">#</a> 订阅我的博客</h2>\n<p>您可以订阅我的博客，以便及时获得最新的技术文章和资讯。</p>\n<hr>\n<p>感谢您成为 TechDevLife 社区的一部分！期待与您一起分享技术的乐趣！</p>\n",
-            "tags": []
         }
     ]
 }

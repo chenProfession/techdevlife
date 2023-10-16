@@ -1,18 +1,25 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://chenprofession.github.io/techdevlife</id>
-    <title>代码与生活的交汇点</title>
-    <link href="https://chenprofession.github.io/techdevlife" />
-    <updated>2023-10-09T14:29:06.000Z</updated>
-    <category term="Ethereum" />
-    <category term="development" />
-    <category term="learning path" />
-    <category term="go" />
-    <entry>
-        <id>https://chenprofession.github.io/techdevlife/2023/10/09/technical-tutorials/useGoEthereum/</id>
-        <title>用Go来做以太坊开发</title>
-        <link rel="alternate" href="https://chenprofession.github.io/techdevlife/2023/10/09/technical-tutorials/useGoEthereum/"/>
-        <content type="html">&lt;h1 id=&#34;2-用go来做以太坊开发&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2-用go来做以太坊开发&#34;&gt;#&lt;/a&gt; 2 - 用 Go 来做以太坊开发&lt;/h1&gt;
+<rss version="2.0">
+    <channel>
+        <title>代码与生活的交汇点 • Posts by &#34;技术教程与指南&#34; category</title>
+        <link>https://chenprofession.github.io/techdevlife</link>
+        <description>软件开发技术与生活的融合，代码与生活的交汇点</description>
+        <language>zh-CN,default</language>
+        <pubDate>Mon, 09 Oct 2023 22:29:06 +0800</pubDate>
+        <lastBuildDate>Mon, 09 Oct 2023 22:29:06 +0800</lastBuildDate>
+        <category>Ethereum</category>
+        <category>development</category>
+        <category>learning path</category>
+        <category>go</category>
+        <item>
+            <guid isPermalink="true">https://chenprofession.github.io/techdevlife/2023/10/09/technical-tutorials/useGoEthereum/</guid>
+            <title>用Go来做以太坊开发</title>
+            <link>https://chenprofession.github.io/techdevlife/2023/10/09/technical-tutorials/useGoEthereum/</link>
+            <category>Ethereum</category>
+            <category>development</category>
+            <category>go</category>
+            <pubDate>Mon, 09 Oct 2023 22:29:06 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;2-用go来做以太坊开发&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2-用go来做以太坊开发&#34;&gt;#&lt;/a&gt; 2 - 用 Go 来做以太坊开发&lt;/h1&gt;
 &lt;p&gt;这里可能有读者会问，为什么用 Go 语言做以太坊开发？当然以太坊开发，有其自己的语言 Solidity，那为什么不用其自己的语言呢？&lt;br&gt;
 笔者这里一开始也确实打算以 Solidity 语言去学习以太坊开发，那为什么又改用 Go 语言了呢？&lt;br&gt;
 很简单的原因，就是项目需要，后面的开发项目中，有要求是需要用 Go 语言，基于&lt;strong&gt;学习成本&lt;/strong&gt;和&lt;strong&gt;实施成本&lt;/strong&gt;的考虑。&lt;/p&gt;
@@ -59,17 +66,17 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;最终，选择取决于你的项目需求和兴趣领域。如果你对智能合约和去中心化应用感兴趣，那么学习 Solidity 是一个不错的选择。如果你对底层区块链开发和工具有兴趣，那么学习 Go 会更有帮助。&lt;/p&gt;
-</content>
-        <category term="Ethereum" />
-        <category term="development" />
-        <category term="go" />
-        <updated>2023-10-09T14:29:06.000Z</updated>
-    </entry>
-    <entry>
-        <id>https://chenprofession.github.io/techdevlife/2023/10/09/technical-tutorials/ethereumLearningPath/</id>
-        <title>以太坊开发学习路径</title>
-        <link rel="alternate" href="https://chenprofession.github.io/techdevlife/2023/10/09/technical-tutorials/ethereumLearningPath/"/>
-        <content type="html">&lt;h1 id=&#34;1-以太坊开发学习路径&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-以太坊开发学习路径&#34;&gt;#&lt;/a&gt; 1 - 以太坊开发学习路径&lt;/h1&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://chenprofession.github.io/techdevlife/2023/10/09/technical-tutorials/ethereumLearningPath/</guid>
+            <title>以太坊开发学习路径</title>
+            <link>https://chenprofession.github.io/techdevlife/2023/10/09/technical-tutorials/ethereumLearningPath/</link>
+            <category>Ethereum</category>
+            <category>development</category>
+            <category>learning path</category>
+            <pubDate>Mon, 09 Oct 2023 22:08:19 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;1-以太坊开发学习路径&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-以太坊开发学习路径&#34;&gt;#&lt;/a&gt; 1 - 以太坊开发学习路径&lt;/h1&gt;
 &lt;p&gt;如果你是一位不懂以太坊的开发人员，想要快速学习以太坊开发，可以按照以下步骤进行学习。以太坊是一种基于区块链的平台，允许开发者构建分布式应用程序和智能合约。&lt;br&gt;
 下面是一个学习路径的简要指南，帮助你入门以太坊开发。&lt;/p&gt;
 &lt;h2 id=&#34;步骤-1了解基本概念&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#步骤-1了解基本概念&#34;&gt;#&lt;/a&gt; 步骤 1：了解基本概念&lt;/h2&gt;
@@ -142,44 +149,7 @@ contract SimpleVoting &amp;#123;
 &lt;h2 id=&#34;步骤-8参与社区和项目&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#步骤-8参与社区和项目&#34;&gt;#&lt;/a&gt; 步骤 8：参与社区和项目&lt;/h2&gt;
 &lt;p&gt;加入以太坊开发社区，参与开源项目，与其他开发者交流经验和知识。&lt;/p&gt;
 &lt;h3 id=&#34;这只是一个学习路径的简要指南你可以根据自己的学习进度和需求来深入学习以太坊开发-记得不断练习和实践才能更好地掌握这些概念和技能&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#这只是一个学习路径的简要指南你可以根据自己的学习进度和需求来深入学习以太坊开发-记得不断练习和实践才能更好地掌握这些概念和技能&#34;&gt;#&lt;/a&gt; 这只是一个学习路径的简要指南，你可以根据自己的学习进度和需求来深入学习以太坊开发。记得不断练习和实践，才能更好地掌握这些概念和技能。&lt;/h3&gt;
-</content>
-        <category term="Ethereum" />
-        <category term="development" />
-        <category term="learning path" />
-        <updated>2023-10-09T14:08:19.000Z</updated>
-    </entry>
-    <entry>
-        <id>https://chenprofession.github.io/techdevlife/2023/10/08/hello-world/</id>
-        <title>Hello World</title>
-        <link rel="alternate" href="https://chenprofession.github.io/techdevlife/2023/10/08/hello-world/"/>
-        <content type="html">&lt;h1 id=&#34;关于作者&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#关于作者&#34;&gt;#&lt;/a&gt; 关于作者&lt;/h1&gt;
-&lt;p&gt;你好，我是 EricChan，欢迎来到 TechDevLife 博客！&lt;/p&gt;
-&lt;h2 id=&#34;关于我&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#关于我&#34;&gt;#&lt;/a&gt; 关于我&lt;/h2&gt;
-&lt;p&gt;我是一名热爱软件开发的工程师，热衷于探索技术与生活的交汇点。我的主要兴趣包括 Java 开发、人工智能和大语言模型技术。&lt;/p&gt;
-&lt;h2 id=&#34;我的使命&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#我的使命&#34;&gt;#&lt;/a&gt; 我的使命&lt;/h2&gt;
-&lt;p&gt;我创建这个博客的目的是分享我在软件开发领域的经验和见解，并探讨如何将技术知识融入日常生活中。我希望通过这个平台与您一起成长，共同探索编程世界的无限可能性。&lt;/p&gt;
-&lt;h2 id=&#34;博客内容&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#博客内容&#34;&gt;#&lt;/a&gt; 博客内容&lt;/h2&gt;
-&lt;p&gt;在 TechDevLife 博客中，您将会找到以下主要内容：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;技术教程与指南&lt;/strong&gt;：深入浅出地分享 Java 开发技巧、Git 版本控制策略等实用教程。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;项目实战与案例分析&lt;/strong&gt;：从实际项目中学习，了解如何将技术应用到实践中。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;职业发展与建议&lt;/strong&gt;：提升技术职场竞争力，规划职业发展道路。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;生活中的技术应用&lt;/strong&gt;：将科技融入我们的日常生活，提高生活质量。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;软件开发工具与环境配置&lt;/strong&gt;：介绍 IDE 使用技巧、开发环境配置建议等。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;技术趋势与前沿&lt;/strong&gt;：关注最新的 AI 技术动态，了解 Java 开发新特性等。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;读者互动与讨论&lt;/strong&gt;：与读者分享交流，解答技术问题。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;如何联系我&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#如何联系我&#34;&gt;#&lt;/a&gt; 如何联系我&lt;/h2&gt;
-&lt;p&gt;有任何问题或建议？请随时联系我：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;电子邮件：[你的邮箱]&lt;/li&gt;
-&lt;li&gt;社交媒体：[你的社交媒体链接]&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;订阅我的博客&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#订阅我的博客&#34;&gt;#&lt;/a&gt; 订阅我的博客&lt;/h2&gt;
-&lt;p&gt;您可以订阅我的博客，以便及时获得最新的技术文章和资讯。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;感谢您成为 TechDevLife 社区的一部分！期待与您一起分享技术的乐趣！&lt;/p&gt;
-</content>
-        <updated>2023-10-08T06:56:31.948Z</updated>
-    </entry>
-</feed>
+ ]]></description>
+        </item>
+    </channel>
+</rss>
