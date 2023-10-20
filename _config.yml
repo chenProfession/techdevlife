@@ -141,6 +141,16 @@ algolia_search:
   hits:
     per_page: 6
 
+# SEO
+# Sitemap Generator
+# 生成 Sitemap：在命令行中执行以下命令以生成 Sitemap：hexo generate
+sitemap:
+  path: sitemap.xml
+  prettyURLs:
+    trailingSlash: false
+baidusitemap:
+  path: baidusitemap.xml
+
 algolia:
   appId: HOEVGOMG5X #Your appId
   apiKey: 05f3dac1d01a27dfa4e8d2246a607baf #Your apiKey
