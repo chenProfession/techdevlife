@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>代码与生活的交汇点 • Posts by &#34;learning path&#34; tag</title>
-        <link>https://chenprofession.github.io/techdevlife</link>
+        <link>https://www.daxiangcoding.com</link>
         <description>软件开发技术与生活的融合，代码与生活的交汇点</description>
         <language>zh-CN,default</language>
         <pubDate>Mon, 16 Oct 2023 23:45:15 +0800</pubDate>
@@ -12,9 +12,9 @@
         <category>learning path</category>
         <category>go</category>
         <item>
-            <guid isPermalink="true">https://chenprofession.github.io/techdevlife/2023/10/16/technical-tutorials/assignmentgo/</guid>
+            <guid isPermalink="true">https://www.daxiangcoding.com/2023/10/16/technical-tutorials/assignmentgo/</guid>
             <title>Go语言如何赋值</title>
-            <link>https://chenprofession.github.io/techdevlife/2023/10/16/technical-tutorials/assignmentgo/</link>
+            <link>https://www.daxiangcoding.com/2023/10/16/technical-tutorials/assignmentgo/</link>
             <category>Ethereum</category>
             <category>development</category>
             <category>learning path</category>
@@ -59,9 +59,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://chenprofession.github.io/techdevlife/2023/10/09/technical-tutorials/ethereumLearningPath/</guid>
+            <guid isPermalink="true">https://www.daxiangcoding.com/2023/10/09/technical-tutorials/ethereumLearningPath/</guid>
             <title>以太坊开发学习路径</title>
-            <link>https://chenprofession.github.io/techdevlife/2023/10/09/technical-tutorials/ethereumLearningPath/</link>
+            <link>https://www.daxiangcoding.com/2023/10/09/technical-tutorials/ethereumLearningPath/</link>
             <category>Ethereum</category>
             <category>development</category>
             <category>learning path</category>

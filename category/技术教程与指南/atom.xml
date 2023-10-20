@@ -1,17 +1,17 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://chenprofession.github.io/techdevlife</id>
+    <id>https://www.daxiangcoding.com</id>
     <title>代码与生活的交汇点 • Posts by &#34;技术教程与指南&#34; category</title>
-    <link href="https://chenprofession.github.io/techdevlife" />
+    <link href="https://www.daxiangcoding.com" />
     <updated>2023-10-16T15:45:15.000Z</updated>
     <category term="Ethereum" />
     <category term="development" />
     <category term="learning path" />
     <category term="go" />
     <entry>
-        <id>https://chenprofession.github.io/techdevlife/2023/10/16/technical-tutorials/assignmentgo/</id>
+        <id>https://www.daxiangcoding.com/2023/10/16/technical-tutorials/assignmentgo/</id>
         <title>Go语言如何赋值</title>
-        <link rel="alternate" href="https://chenprofession.github.io/techdevlife/2023/10/16/technical-tutorials/assignmentgo/"/>
+        <link rel="alternate" href="https://www.daxiangcoding.com/2023/10/16/technical-tutorials/assignmentgo/"/>
         <content type="html">&lt;h1 id=&#34;3-go语言如何赋值比如go语言的多重赋值&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#3-go语言如何赋值比如go语言的多重赋值&#34;&gt;#&lt;/a&gt; 3-Go 语言如何赋值，比如 go 语言的多重赋值&lt;/h1&gt;
 &lt;p&gt;笔者这里在学习 go 语言开发以太坊的时候，遇到过下面的语句：&lt;/p&gt;
 &lt;figure class=&#34;highlight go&#34;&gt;&lt;figcaption data-lang=&#34;go&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;account &lt;span class=&#34;token operator&#34;&gt;:=&lt;/span&gt; common&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;HexToAddress&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;0x71c7656ec7ab88b098defb751b7401b5f6d8976f&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;balance&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; err &lt;span class=&#34;token operator&#34;&gt;:=&lt;/span&gt; client&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;BalanceAt&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;context&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;Background&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; account&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token boolean&#34;&gt;nil&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt; err &lt;span class=&#34;token operator&#34;&gt;!=&lt;/span&gt; &lt;span class=&#34;token boolean&#34;&gt;nil&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  log&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;Fatal&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;err&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;fmt&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;Println&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;balance&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;这里笔者有一个疑问，以下语句的赋值是什么意思？&lt;/p&gt;
@@ -56,9 +56,9 @@
         <updated>2023-10-16T15:45:15.000Z</updated>
     </entry>
     <entry>
-        <id>https://chenprofession.github.io/techdevlife/2023/10/09/technical-tutorials/useGoEthereum/</id>
+        <id>https://www.daxiangcoding.com/2023/10/09/technical-tutorials/useGoEthereum/</id>
         <title>用Go来做以太坊开发</title>
-        <link rel="alternate" href="https://chenprofession.github.io/techdevlife/2023/10/09/technical-tutorials/useGoEthereum/"/>
+        <link rel="alternate" href="https://www.daxiangcoding.com/2023/10/09/technical-tutorials/useGoEthereum/"/>
         <content type="html">&lt;h1 id=&#34;2-用go来做以太坊开发&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2-用go来做以太坊开发&#34;&gt;#&lt;/a&gt; 2 - 用 Go 来做以太坊开发&lt;/h1&gt;
 &lt;p&gt;这里可能有读者会问，为什么用 Go 语言做以太坊开发？当然以太坊开发，有其自己的语言 Solidity，那为什么不用其自己的语言呢？&lt;br&gt;
 笔者这里一开始也确实打算以 Solidity 语言去学习以太坊开发，那为什么又改用 Go 语言了呢？&lt;br&gt;
@@ -113,9 +113,9 @@
         <updated>2023-10-09T14:29:06.000Z</updated>
     </entry>
     <entry>
-        <id>https://chenprofession.github.io/techdevlife/2023/10/09/technical-tutorials/ethereumLearningPath/</id>
+        <id>https://www.daxiangcoding.com/2023/10/09/technical-tutorials/ethereumLearningPath/</id>
         <title>以太坊开发学习路径</title>
-        <link rel="alternate" href="https://chenprofession.github.io/techdevlife/2023/10/09/technical-tutorials/ethereumLearningPath/"/>
+        <link rel="alternate" href="https://www.daxiangcoding.com/2023/10/09/technical-tutorials/ethereumLearningPath/"/>
         <content type="html">&lt;h1 id=&#34;1-以太坊开发学习路径&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-以太坊开发学习路径&#34;&gt;#&lt;/a&gt; 1 - 以太坊开发学习路径&lt;/h1&gt;
 &lt;p&gt;如果你是一位不懂以太坊的开发人员，想要快速学习以太坊开发，可以按照以下步骤进行学习。以太坊是一种基于区块链的平台，允许开发者构建分布式应用程序和智能合约。&lt;br&gt;
 下面是一个学习路径的简要指南，帮助你入门以太坊开发。&lt;/p&gt;
