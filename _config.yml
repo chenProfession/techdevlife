@@ -36,6 +36,7 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
   - ./html/**
+  - "baidu_verify_codeva-PaFpLhzJPU.html"
   # 表示HTML文件夹里面的所有内容都不会被hexo渲染
 
 # Writing
