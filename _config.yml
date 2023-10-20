@@ -152,6 +152,18 @@ sitemap:
 baidusitemap:
   path: baidusitemap.xml
 
+# 百度链接提交-主动推送配置
+baidu_url_submit:
+  # 提交最新的一个链接
+  count: 3
+  # 在百度站长平台中注册的域名
+  host: www.daxiangcoding.com
+  # 请注意这是您的秘钥，所以请不要把博客源代码发布在公众仓库里!
+  token: wU866lSj1h5Okby2
+  # 文本文档的地址， 新链接会保存在此文本文档里
+  path: baidu_urls.txt
+
+# 搜索
 algolia:
   appId: HOEVGOMG5X #Your appId
   apiKey: 05f3dac1d01a27dfa4e8d2246a607baf #Your apiKey
