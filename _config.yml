@@ -131,10 +131,11 @@ theme: shokaX
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
-  repo: git@github.com:chenProfession/techdevlife.git
+  - type: git
+    repo: git@github.com:chenProfession/techdevlife.git
   # example, https://github.com/hexojs/hexojs.github.io
-  branch: gh-pages
+    branch: gh-pages
+  - type: baidu_url_submitter
 
 # Algolia search
 algolia_search:
