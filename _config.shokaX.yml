@@ -50,15 +50,15 @@ footer:
   count: true
   powered: true
   lantern:
-    enable: true #是否开启
+    enable: false #是否开启
     word1: 中 #第一个字
     word2: 秋 #第二个字
   icp: # ICP备案
-    enable: false
+    enable: true
     icon: "beian.webp" #网安备案图片
-    icpnumber: "xxx" # ICP备案号
-    beian: "xxx" # 网安备案号
-    recordcode: "xxx" # 网安备案链接中的recordcode参数
+    icpnumber: "粤ICP备19072616号-2" # ICP备案号
+    beian: "粤ICP备19072616号-2" # 网安备案号
+    recordcode: "" # 网安备案链接中的recordcode参数
 
 post:
   count: true
