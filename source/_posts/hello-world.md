@@ -1,6 +1,7 @@
 ---
 title: Hello World
 sticky  : true   # 文章是否置顶
+cover: https://ooo.0x0.ooo/2023/10/20/O7pFlg.jpg
 ---
 # 关于作者
 

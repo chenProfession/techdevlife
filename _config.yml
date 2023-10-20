@@ -90,6 +90,10 @@ category_map:
   技术趋势与前沿: tech-trends-and-innovations
   读者互动与讨论: reader-interaction-and-discussion
 tag_map:
+  以太坊: Ethereum
+  软件开发: development
+  学习路径: learning path
+  Go语言: go
 
 #categories:
 #  - [技术教程与指南, 项目实战与案例分析, 职业发展与建议, 生活中的技术应用, 软件开发工具与环境配置, 技术趋势与前沿, 读者互动与讨论]
